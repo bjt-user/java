@@ -17,3 +17,4 @@ java hw.java
 ```
 Error: Could not find or load main class hw.java
 ```
+=> seems to be a general problem as all my java programs don't work anymore.
