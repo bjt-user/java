@@ -7,3 +7,9 @@ There is the `complete -p` command, but the output does not help.
 $ complete -p java
 complete -F _java java
 ```
+
+#### Solution
+Put this in your .bashrc or .bash_profile:
+```
+complete -o default java
+```
