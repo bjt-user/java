@@ -33,7 +33,7 @@ the old java installation is still being used.
 
 Then I did:
 ```
-export JAVA_HOME=/home/bofo/opt/java/jdk-17.0.2
+export JAVA_HOME=/home/myuser/opt/java/jdk-17.0.2
 ```
 
 But it doesn't work, `which java` still shows the old version.
