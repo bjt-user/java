@@ -31,3 +31,5 @@ java: /usr/lib/java /etc/java /usr/share/java /usr/java/jdk1.8.0_101/bin/java
 $ which java
 /usr/java/latest/bin/java
 ```
+
+The problem seems to be that environment variables are not set correctly.
