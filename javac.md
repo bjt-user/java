@@ -25,3 +25,13 @@ javap -p helloworld.class
 ```
 javap -v helloworld.class
 ```
+
+This seems to print the bytecode:
+```
+javap -c helloworld.class
+```
+
+from `man javap`:
+```
+-c     Prints disassembled code, for example, the instructions that comprise the Java bytecodes, for each of the methods in the class.
+```
