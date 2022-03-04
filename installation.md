@@ -39,7 +39,7 @@ export JAVA_HOME=/home/myuser/opt/java/jdk-17.0.2
 But it doesn't work, `which java` still shows the old version.
 
 So I try to remove the old java installatino from the path by putting this into `~/.bash_profile`.\
-(first I do `echo $PATH` to view what I have to add)
+(first I do `echo $PATH` to view what I have to add again after unsetting the path)
 ```
 unset PATH
 export PATH=$PATH:/home/myuser/opt/java/jdk-17.0.2/bin
