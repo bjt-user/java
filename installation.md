@@ -22,3 +22,8 @@ The path to the `bin` folder might look something like this:
 ```
 /home/myuser/opt/java/jdk-17.0.2/bin
 ```
+Now execute this line of code and put it into .bashrc or .bashprofile later:
+```
+export PATH=$PATH:/home/myuser/opt/java/jdk-17.0.2/bin
+```
+Check you path with `echo $PATH`.
