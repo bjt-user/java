@@ -30,3 +30,10 @@ Check your path with `echo $PATH`.
 
 But the problem is, that when we type `java` or `which java`,\
 the old java installation is still being used.
+
+Then I did:
+```
+export JAVA_HOME=/home/bofo/opt/java/jdk-17.0.2
+```
+
+But it doesn't work, `which java` still shows the old version.
