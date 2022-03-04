@@ -9,3 +9,11 @@ public class hw {
 	}
 }
 ```
+
+And this works in `eclipse` but not on the command line when calling it like this:
+```
+java hw.java
+```
+```
+Error: Could not find or load main class hw.java
+```
