@@ -26,4 +26,7 @@ Now execute this line of code and put it into .bashrc or .bashprofile later:
 ```
 export PATH=$PATH:/home/myuser/opt/java/jdk-17.0.2/bin
 ```
-Check you path with `echo $PATH`.
+Check your path with `echo $PATH`.
+
+But the problem is, that when we type `java` or `which java`,\
+the old java installation is still being used.
