@@ -1,5 +1,5 @@
 The class name should be the same as the file name.\
-Create a file named `hw.java`.\
+Create a file named `hw.java`.
 
 Put this code in it:
 ```
