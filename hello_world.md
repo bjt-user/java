@@ -24,3 +24,10 @@ java version "1.8.0_101"
 Java(TM) SE Runtime Environment (build 1.8.0_101-b13)
 Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 ```
+
+```
+$ whereis java
+java: /usr/lib/java /etc/java /usr/share/java /usr/java/jdk1.8.0_101/bin/java
+$ which java
+/usr/java/latest/bin/java
+```
