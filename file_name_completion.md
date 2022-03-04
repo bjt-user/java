@@ -1,5 +1,5 @@
 On the command line I have the problem, that I cannot `<tab>`-complete the `java`-command.\
-`java he<tab>` will not complete to `java helloworld.java`\
+`java he<tab>` will **not** complete to `java helloworld.java`
 
 There is the `complete -p` command, but the output does not help.
 
