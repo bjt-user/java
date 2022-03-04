@@ -1,4 +1,4 @@
-#### Installation On Linux
+### Installation On Linux
 
 There is a link on `java.com` where you can download a `.tar` file,\
 but I could not find a way to download that file with `wget` or `curl`.\
@@ -12,4 +12,13 @@ wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
 ```
 ```
 tar -xvzf jdk-17_linux-x64_bin.tar.gz
+```
+
+#### Setting Environment Variables
+
+Go into the untarred jdk folder.\
+Go into the `bin` folder and type `pwd`.\
+The path to the `bin` folder might look something like this:
+```
+/home/myuser/opt/java/jdk-17.0.2/bin
 ```
