@@ -45,3 +45,6 @@ unset PATH
 export PATH=$PATH:/home/myuser/opt/java/jdk-17.0.2/bin
 export PATH=$PATH:/somefolder/tools/scripts:/somefolder/tools/sometool-2.05.1/bin:/somefolder/tools/apache-ant-1.9.6/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin
 ```
+
+And now it works, `which java` shows the right folder and `java version` the right version.\
+Compiling a hello world java file with `java hw.java` also works.
