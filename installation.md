@@ -52,5 +52,5 @@ Compiling a hello world java file with `java hw.java` also works.
 Another way to change the environment variables closer to the root:
 The environment variables on Debian were in this file:
 ```
-sudo vim /etc/environment
+sudo vim /etc/profile
 ```
