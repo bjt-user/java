@@ -48,3 +48,9 @@ export PATH=$PATH:/somefolder/tools/scripts:/somefolder/tools/sometool-2.05.1/bi
 
 And now it works, `which java` shows the right folder and `java version` the right version.\
 Compiling a hello world java file with `java hw.java` also works.
+
+Another way to change the environment variables closer to the root:
+The environment variables on Debian were in this file:
+```
+sudo vim /etc/environment
+```
