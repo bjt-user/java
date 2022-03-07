@@ -54,5 +54,5 @@ The environment variables on Debian were in this file:
 ```
 sudo vim /etc/profile
 ```
-=> but it not take effect after opening a new shell
-maybe reboot?
+=> but you have to reboot the computer so that changing environment variables here takes effect\
+(just opening a new shell is not enough)
