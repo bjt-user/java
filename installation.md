@@ -71,6 +71,9 @@ OpenJDK 64-Bit Server VM (build 11.0.14+9-post-Debian-1deb11u1, mixed mode, shar
 
 $ javac -version
 javac 17.0.2
+
+$ javap -version
+17.0.2
 ```
 
 The solution was to put the `jdk` infront of the other environment variables.\
