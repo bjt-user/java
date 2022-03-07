@@ -56,3 +56,19 @@ sudo vim /etc/profile
 ```
 => but you have to reboot the computer so that changing environment variables here takes effect\
 (just opening a new shell is not enough)
+
+
+I still have the problem that the version of `java` and `javac` are different, and there is an error.
+```
+HelloWorld has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+```
+```
+$ java -version
+openjdk version "11.0.14" 2022-01-18
+OpenJDK Runtime Environment (build 11.0.14+9-post-Debian-1deb11u1)
+OpenJDK 64-Bit Server VM (build 11.0.14+9-post-Debian-1deb11u1, mixed mode, sharing)
+
+$ javac -version
+javac 17.0.2
+```
+
