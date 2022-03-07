@@ -76,6 +76,6 @@ javac 17.0.2
 The solution was to put the `jdk` infront of the other environment variables.\
 So that the `java` version that is installed by default in the system\
 (and is in some `bin` directory) comes later.\
-``
+```
 export PATH=/home/someuser/opt/jdk-17.0.2/bin:$PATH
 ```
