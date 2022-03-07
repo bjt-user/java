@@ -42,7 +42,7 @@ So I try to remove the old java installatino from the path by putting this into 
 (first I do `echo $PATH` to view what I have to add again after unsetting the path)
 ```
 unset PATH
-export PATH=$PATH:/home/myuser/opt/java/jdk-17.0.2/bin
+export PATH=/home/someuser/opt/jdk-17.0.2/bin:$PATH
 export PATH=$PATH:/somefolder/tools/scripts:/somefolder/tools/sometool-2.05.1/bin:/somefolder/tools/apache-ant-1.9.6/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin
 ```
 
@@ -73,3 +73,9 @@ $ javac -version
 javac 17.0.2
 ```
 
+The solution was to put the `jdk` infront of the other environment variables.\
+So that the `java` version that is installed by default in the system\
+(and is in some `bin` directory) comes later.\
+``
+export PATH=/home/someuser/opt/jdk-17.0.2/bin:$PATH
+```
