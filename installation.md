@@ -76,7 +76,7 @@ $ javap -version
 17.0.2
 ```
 
-The solution was to put the `jdk` **infront** of the other environment variables.\
+The solution was to put the path to the `jdk bin` folder **infront** of the other environment variables.\
 So that the `java` version that is installed by default in the system\
 (and is in some `bin` directory) comes later.\
 ```
