@@ -57,6 +57,7 @@ sudo vim /etc/profile
 => but you have to reboot the computer so that changing environment variables here takes effect\
 (just opening a new shell is not enough)
 
+#### when java and javac versions don't work with eachother
 
 I still have the problem that the version of `java` and `javac` are different, and there is an error.
 ```
