@@ -9,4 +9,5 @@ You only need to compile and execute the file with the main function.\
 The other file will be compiled automatically because `javac` detects it in the first file.
 
 If you try to execute a `.java` file without a `main` function nothing will happen\
-because the interpreter will look for a main function to execute.
+because the interpreter will look for a main function to execute.\
+But the functions in those files can of course be called from other functions.
