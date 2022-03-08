@@ -20,5 +20,5 @@ Window -> Preferences -> Java -> Editor -> Templates\
 Here are all the default snippets with their aliases, and you can add custom snippets.
 
 For example there is the default snippet for `System.out.println()`.\
-You can type `syso` and if you have the `auto activation triggers set like shown [here](#code completion)\
+You can type `syso` and if you have the `auto activation triggers` set like shown [here](#code completion)\
 and press `<enter>` the snippet will be placed.
