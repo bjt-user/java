@@ -13,3 +13,5 @@ Put this in your .bashrc or .bash_profile:
 ```
 complete -o default java
 ```
+
+**I have noticed that the `java` file name completion (which should complete the filename without extension) works only correctly after I have used `javac` at least once in a session.**
