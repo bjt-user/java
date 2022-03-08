@@ -33,3 +33,7 @@ Select the desired row, click into `binding:` field and hit your desired key.
 
 For example I set the `run` command to `<F5>`.\
 (note that there are two run commands and one of them opens a menu)
+
+When there are conflicts you can select a row and hit `unbind` button.
+
+After your changes hit ´Apply and close`.
