@@ -21,7 +21,7 @@ Here are all the default snippets with their aliases, and you can add custom sni
 
 For example there is the default snippet for `System.out.println()`.\
 You can type `syso` and if you have the `auto activation triggers` set like shown [here](#code completion)\
-and press `<enter>` the snippet will be placed.
+then the autocompletion will trigger and propose `sysout` then press `<enter>` the snippet will be placed.
 
 
 #### keyboard shortcuts
