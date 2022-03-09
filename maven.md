@@ -25,3 +25,7 @@ ERROR: cannot verify dlcdn.apache.org's certificate, issued by '/C=US/O=Let\'s E
 Issued certificate has expired.
 To connect to dlcdn.apache.org insecurely, use `--no-check-certificate'.
 ```
+(no idea what this is, but I used `--no-check-certificate` as workaround)
+```
+wget --no-check-certificate https://dlcdn.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz
+```
