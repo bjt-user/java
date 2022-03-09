@@ -37,3 +37,11 @@ put this in your `$PATH` (change this to whereever you have untarred the package
 ```
 /home/myuser/opt/apache-maven-3.8.4/bin
 ```
+now you can type
+```
+which mvn
+```
+or
+```
+mvn -version
+```
