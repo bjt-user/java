@@ -46,3 +46,8 @@ or
 ```
 mvn -version
 ```
+
+#### create pom.xml
+
+I did not find a way yet to create a pom.xml on the command line.\
+It looks like you have to write that file manually...
