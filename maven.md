@@ -34,4 +34,6 @@ tar -xvzf apache-maven-3.8.4-bin.tar.gz
 ```
 
 put this in your `$PATH`:
+```
 /home/myuser/opt/apache-maven-3.8.4/bin
+```
