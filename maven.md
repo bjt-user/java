@@ -1,9 +1,10 @@
-TODO: why use maven? and how to use it both on command line and in eclipse?
+TODO: how to use maven both on command line and in eclipse?
 
 `Apache Maven` downloads libraries, so you don't have to download a java library with a web browser,\
 put it into some folder and set the `classpath` for compiling.\
 (The `classpath` is the path where additional classes for you java application are located.\
-The classpath should only be necessary if the classes are not in the same folder.) 
+The classpath should only be necessary if the classes are not in the same folder.) \
+So it is also a build tool.
 
 TODO: make a page for classpath and link to it
 
