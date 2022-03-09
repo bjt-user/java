@@ -6,3 +6,5 @@ put it into some folder and set the `classpath` for compiling.\
 The classpath should only be necessary if the classes are not in the same folder.) 
 
 TODO: make a page for classpath and link to it
+
+A `maven` project is configured in a file called `pom.xml`.
