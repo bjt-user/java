@@ -32,3 +32,6 @@ wget --no-check-certificate https://dlcdn.apache.org/maven/maven-3/3.8.4/binarie
 ```
 tar -xvzf apache-maven-3.8.4-bin.tar.gz
 ```
+
+put this in your `$PATH`:
+/home/myuser/opt/apache-maven-3.8.4/bin
