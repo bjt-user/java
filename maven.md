@@ -8,3 +8,6 @@ The classpath should only be necessary if the classes are not in the same folder
 TODO: make a page for classpath and link to it
 
 A `maven` project is configured in a file called `pom.xml`.
+
+In a `maven` project you usually have a `src` and a `target` folder.\
+The `src` fodler contains the `.java` files and the `target` folder contains the `.class` files that have been comiled.
