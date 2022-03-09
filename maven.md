@@ -33,8 +33,8 @@ wget --no-check-certificate https://dlcdn.apache.org/maven/maven-3/3.8.4/binarie
 tar -xvzf apache-maven-3.8.4-bin.tar.gz
 ```
 
-put this in your `$PATH` (change this to whereever you have untarred the package):
-[how to set environment variables](https://gitlab.com/bjt-user/java/-/blob/main/installation.md#Setting_Environment_Variables)
+put this in your `$PATH` (change this to whereever you have untarred the package):\
+[how to set environment variables](https://gitlab.com/bjt-user/java/-/blob/main/installation.md#Setting-Environment-Variables)
 ```
 /home/myuser/opt/apache-maven-3.8.4/bin
 ```
