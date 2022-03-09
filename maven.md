@@ -29,3 +29,6 @@ To connect to dlcdn.apache.org insecurely, use `--no-check-certificate'.
 ```
 wget --no-check-certificate https://dlcdn.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz
 ```
+```
+tar -xvzf apache-maven-3.8.4-bin.tar.gz
+```
