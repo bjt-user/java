@@ -7,7 +7,11 @@ The classpath should only be necessary if the classes are not in the same folder
 
 TODO: make a page for classpath and link to it
 
-A `maven` project is configured in a file called `pom.xml`.
+A `maven` project is configured in a file called `pom.xml`.\
+In that file the libraries that need to be downloaded (`dependencies`) are referenced.
 
 In a `maven` project you usually have a `src` and a `target` folder.\
-The `src` fodler contains the `.java` files and the `target` folder contains the `.class` files that have been comiled.
+The `src` fodler contains the `.java` files and the `target` folder contains the `.class` files that have been comiled.\
+Inside the `src` is a `main` folder where your code is in and a `test` folder for `junit tests`.\
+Inside the `main` and the `test` folder is another folder named `java` and inside that are the `.java` files.\
+(pretty unnecessary but whatever)
