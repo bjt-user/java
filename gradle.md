@@ -6,6 +6,13 @@ According to wikipedia.org Gradle was released 2007 while Maven was release 2002
 
 https://gradle.org/install/
 
+According to a tutorial you can also use a gradle wrapper called `gradlew` instead of installing gradle.\
+That wrapper will automatically download gradle and build the project.
+
+#### Gradle Tasks
+
+gradle tasks are individual build action that you can run from the command line.
+
 #### Fails
 
 I tried creating a `Gradle Project` with `Eclipse` but it failed.\
@@ -19,3 +26,6 @@ todo: follow tutorial after gradle installation
 https://www.youtube.com/watch?v=-dtcEMLNmn0&ab_channel=TomGregoryTech
 ```
 at around 9:30
+
+It looks like with `gradle init` gradle asks you what kind of project you would like to set up.\
+Then it will set up the directory structure.
