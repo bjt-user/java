@@ -1,4 +1,4 @@
-Gradle is build tool for java like Maven and Ant.
+Gradle is a build tool for java like Maven and Ant.
 
 According to wikipedia.org Gradle was released 2007 while Maven was release 2002 and Ant was released in 2000.
 
@@ -15,7 +15,7 @@ fail with the most visible link on `gradle.org`:\
 this didn't work, need to get a link with the filename at the end
 
 The correct link is hard to find (follow a link named `release candidate`):
-```
+```bash
 wget https://services.gradle.org/distributions/gradle-7.4-rc-2-bin.zip
 ```
 
