@@ -46,3 +46,14 @@ at around 9:30
 
 It looks like with `gradle init` gradle asks you what kind of project you would like to set up.\
 Then it will set up the directory structure.
+
+Choose `1` for `basic project`.
+Choose `1` for `Groovy`.
+`no` for `no new features`
+and `<enter>` for the default application name (same as directory name)
+
+But executing the gradlew wrapper failed:
+```
+$ ./gradlew tasks
+Downloading from https://services.gradle.org/distributions/gradle-7.4-rc-2-bin.zip failed: timeout
+```
