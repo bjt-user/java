@@ -10,7 +10,7 @@ According to a tutorial you can also use a gradle wrapper called `gradlew` inste
 That wrapper will automatically download gradle and build the project.
 
 ``` FAIL
-wget https://gradle.org/next-steps/?version=7.4.1&format=bin
+~~wget https://gradle.org/next-steps/?version=7.4.1&format=bin~~
 ```
 this didn't work, need to get a link with the filename at the end
 
