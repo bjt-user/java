@@ -57,3 +57,5 @@ But executing the gradlew wrapper failed:
 $ ./gradlew tasks
 Downloading from https://services.gradle.org/distributions/gradle-7.4-rc-2-bin.zip failed: timeout
 ```
+
+https://riptutorial.com/gradle/example/17338/using-the-gradle-wrapper-behind-a-proxy
