@@ -19,6 +19,12 @@ The correct link is hard to find (follow a link named `release candidate`):
 wget https://services.gradle.org/distributions/gradle-7.4-rc-2-bin.zip
 ```
 
+```
+unzip gradle-7.4-rc-2-bin.zip
+```
+
+Maybe you can also `git clone https://github.com/gradle/gradle` and then execute the `gradlew` wrapper script?!
+
 #### Gradle Tasks
 
 gradle tasks are individual build action that you can run from the command line.
