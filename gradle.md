@@ -22,7 +22,7 @@ wget https://services.gradle.org/distributions/gradle-7.4-rc-2-bin.zip
 ```
 unzip gradle-7.4-rc-2-bin.zip
 ```
-[add bin directory to $PATH](https://gitlab.com/bjt-user/java/-/blob/main/installation.md#setting-environment-variables)
+[add bin directory to $PATH as shown here](https://gitlab.com/bjt-user/java/-/blob/main/installation.md#Setting-Environment-Variables)
 
 Maybe you can also `git clone https://github.com/gradle/gradle` and then execute the `gradlew` wrapper script?!
 
