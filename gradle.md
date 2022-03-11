@@ -14,6 +14,11 @@ wget https://gradle.org/next-steps/?version=7.4.1&format=bin
 ```
 this didn't work, need to get a link with the filename at the end
 
+The correct link is hard to find (follow a link named `release candidate`):
+```
+wget https://services.gradle.org/distributions/gradle-7.4-rc-2-bin.zip
+```
+
 #### Gradle Tasks
 
 gradle tasks are individual build action that you can run from the command line.
