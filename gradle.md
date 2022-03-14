@@ -33,6 +33,15 @@ export PATH=$PATH:/home/myuser/opt/gradle-7.4-rc-2/bin
 
 Maybe you can also `git clone https://github.com/gradle/gradle` and then execute the `gradlew` wrapper script?!
 
+#### Proxy
+
+If you use a proxy where all your internet traffic has to go through,\
+`Gradle` will not work without some adjustments.\
+I put this in my `.bashprofile` and will see if it works:
+```
+export JAVA_OPTS=-Dhttps.proxyPort=1234 -Dhttps.proxyHost=proxy.company.com
+```
+
 #### Gradle Tasks
 
 gradle tasks are individual build action that you can run from the command line.
@@ -68,7 +77,5 @@ Downloading from https://services.gradle.org/distributions/gradle-7.4-rc-2-bin.z
 https://riptutorial.com/gradle/example/17338/using-the-gradle-wrapper-behind-a-proxy
 
 No matter what you do, gradle does only work with an internet connection.
-I put this in my `.bashprofile` and will see if it works:
-```
-export JAVA_OPTS=-Dhttps.proxyPort=1234 -Dhttps.proxyHost=my.company.com
-```
+(see [Proxy](#Proxy))
+
