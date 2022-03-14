@@ -156,6 +156,28 @@ Error:
 ```
 > Could not set unknown property 'mainClassName' for root project 'gradle-tutorial' of type org.gradle.api.Project.
 ```
+
+I managed to run my project with this `build.gradle` config:
+```
+plugins {
+    id 'java'
+}
+
+apply plugin: 'application'
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'HelloWorld'
+    }
+}
+
+application {
+    mainClassName = 'HelloWorld'
+}
+```
+
+Then you can do `gradle -q run` (where `-q` stands for quiet and doesn't show log messages)
+
 #### dependencies
 To implement a library it looks like you can do it the following way:\
 Go to https://mvnrepository.com and search for your lib.\
