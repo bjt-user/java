@@ -91,3 +91,8 @@ plugins {
 }
 ```
 Then run `./gradlew tasks` again and there will be new tasks available.
+
+Setup a `HelloWorld.java` file and type the following command to build the project:
+```
+./gradlew build
+```
