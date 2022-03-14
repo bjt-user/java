@@ -148,4 +148,10 @@ dependencies {
     implementation group: 'org.apache.camel', name: 'camel-core', version: '3.15.0'
 }
 ```
+But you also need to add a repository:
+```
+repositories {
+    mavenCentral()
+}
+```
 
