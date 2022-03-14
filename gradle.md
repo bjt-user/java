@@ -1,3 +1,5 @@
+#### What is Gradle?
+
 Gradle is a build tool for java like Maven and Ant.
 
 According to wikipedia.org Gradle was released 2007 while Maven was release 2002 and Ant was released in 2000.
@@ -22,7 +24,12 @@ wget https://services.gradle.org/distributions/gradle-7.4-rc-2-bin.zip
 ```
 unzip gradle-7.4-rc-2-bin.zip
 ```
-[add bin directory to $PATH as shown here](installation.md#setting-environment-variables)
+
+Put this in your .bashprofile:
+```
+export GRADLE_HOME=/home/myuser/opt/gradle-7.4-rc-2
+export PATH=$PATH:/home/myuser/opt/gradle-7.4-rc-2/bin
+```
 
 Maybe you can also `git clone https://github.com/gradle/gradle` and then execute the `gradlew` wrapper script?!
 
