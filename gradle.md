@@ -106,7 +106,7 @@ no main manifest attribute, in gradle-tutorial.jar
 Java does not know which class to run.\
 We need to add the main class manifest attribute.\
 So I add a section to the `build.gradle` file:
-```
+``` build.gradle
 plugins {
     id 'java'
 }
