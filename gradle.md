@@ -61,6 +61,8 @@ Now it seems to work.
 But I don't have the folder structure that gradle wants and I can't create a new class by right-clicking the project\
 because it is `not a java project`.
 
+Maybe I should have set the `java home` and `gradle user home` in `window->preferences->gradle`
+
 ***
 #### Tutorial
 
