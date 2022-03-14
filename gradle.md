@@ -57,6 +57,10 @@ I can see that `Gradle` is installed in Eclipse under `help -> Eclipse Marketpla
 Now I went to `Window -> Preferences -> Gradle`\
 Then I enabled `specific gradle version` and chose the latest version. (7.4.1)\
 Now it seems to work.
+
+But I don't have the folder structure that gradle wants and I can't create a new class by right-clicking the project\
+because it is `not a java project`.
+
 ***
 #### Tutorial
 
