@@ -37,7 +37,7 @@ Maybe you can also `git clone https://github.com/gradle/gradle` and then execute
 
 If you use a proxy where all your internet traffic has to go through,\
 `Gradle` will not work without some adjustments.\
-I put this in my `.bashprofile` and will see if it works:
+I put this in my `.bashprofile` and it worked (i can now do `./gradlew tasks`):
 ```
 export JAVA_OPTS="-Dhttps.proxyPort=1234 -Dhttps.proxyHost=proxy.company.com"
 ```
