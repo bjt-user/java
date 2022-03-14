@@ -137,3 +137,16 @@ The `build/generated` folder has only folders in it no files.\
 `build/classes/java` contains the `.class` files.
 
 But how do I run the project? There is no `./gradlew run`...
+
+#### dependencies
+To implement a library it looks like you can do it the following way:\
+Go to https://mvnrepository.com and search for your lib.\
+Click on the latest version of your lib, select `gradle` ribbon.\
+Then copy that line into your `build.gradle` into the dependencies:
+```
+dependencies {
+    implementation group: 'org.apache.camel', name: 'camel-core', version: '3.15.0'
+}
+```
+
+implementation group: 'org.apache.camel', name: 'camel-core', version: '3.15.0'
