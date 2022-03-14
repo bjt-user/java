@@ -46,13 +46,17 @@ export JAVA_OPTS="-Dhttps.proxyPort=1234 -Dhttps.proxyHost=proxy.company.com"
 
 gradle tasks are individual build action that you can run from the command line.
 
-#### Fails
+#### Eclipse
 
 I tried creating a `Gradle Project` with `Eclipse` but it failed.\
 File -> New -> Project -> Gradle Project -> ...\
 Three hidden directories were created, but no folder structure for source and class files.\
 Also no `gradle.build` file.\
 I can see that `Gradle` is installed in Eclipse under `help -> Eclipse Marketplace -> installed`
+
+Now I went to `Window -> Preferences -> Gradle`\
+Then I enabled `specific gradle version` and chose the latest version. (7.4.1)\
+Now it seems to work.
 ***
 #### Tutorial
 
