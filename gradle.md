@@ -117,7 +117,15 @@ jar {
     }
 }
 ```
-And besides that `.jar` file there are no `.class` files.
+Now I ran `./gradlew build` again.\
+Went into `build/libs` and executed:
+```
+$ java -jar gradle-tutorial.jar
+hello world
+```
+It worked.
+
+But besides that `.jar` file there are no `.class` files.
 
 The reason for this is probably because I didn't setup the folder structure that `gradle` expects.
 
