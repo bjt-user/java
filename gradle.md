@@ -77,5 +77,4 @@ Downloading from https://services.gradle.org/distributions/gradle-7.4-rc-2-bin.z
 https://riptutorial.com/gradle/example/17338/using-the-gradle-wrapper-behind-a-proxy
 
 No matter what you do, gradle does only work with an internet connection.
-(see [Proxy](####Proxy))
 
