@@ -103,3 +103,9 @@ But I cant seem to execute it:
 $ java -jar gradle-tutorial.jar
 no main manifest attribute, in gradle-tutorial.jar
 ```
+
+The reason for this is probably because I didn't setup the folder structure that `gradle` expects.
+
+```
+...java/gradle-tutorial $ mv HelloWorld.java src/main/java/.
+```
