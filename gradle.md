@@ -113,3 +113,5 @@ The reason for this is probably because I didn't setup the folder structure that
 I ran `./gradlew build` again and now there are two more folders in the `build` directory.\
 The `build/generated` folder has only folders in it no files.\
 `build/classes/java` contains the `.class` files.
+
+But how do I run the project? There is no `./gradlew run`...
