@@ -138,6 +138,24 @@ The `build/generated` folder has only folders in it no files.\
 
 But how do I run the project? There is no `./gradlew run`...
 
+I specify the main class in my `build.gradle`:
+```
+plugins {
+    id 'java'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'HelloWorld'
+    }
+}
+
+mainClassName = 'HelloWorld'
+```
+Error:
+```
+> Could not set unknown property 'mainClassName' for root project 'gradle-tutorial' of type org.gradle.api.Project.
+```
 #### dependencies
 To implement a library it looks like you can do it the following way:\
 Go to https://mvnrepository.com and search for your lib.\
