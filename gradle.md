@@ -96,3 +96,10 @@ Setup a `HelloWorld.java` file and type the following command to build the proje
 ```
 ./gradlew build
 ```
+Now there is a folder named `build`.\
+In `/build/libs` there is a `.jar` file with the project name.\
+But I cant seem to execute it:
+```
+$ java -jar gradle-tutorial.jar
+no main manifest attribute, in gradle-tutorial.jar
+```
