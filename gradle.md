@@ -39,7 +39,7 @@ If you use a proxy where all your internet traffic has to go through,\
 `Gradle` will not work without some adjustments.\
 I put this in my `.bashprofile` and will see if it works:
 ```
-export JAVA_OPTS=-Dhttps.proxyPort=1234 -Dhttps.proxyHost=proxy.company.com
+export JAVA_OPTS="-Dhttps.proxyPort=1234 -Dhttps.proxyHost=proxy.company.com"
 ```
 
 #### Gradle Tasks
