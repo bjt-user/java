@@ -51,7 +51,8 @@ gradle tasks are individual build action that you can run from the command line.
 I tried creating a `Gradle Project` with `Eclipse` but it failed.\
 File -> New -> Project -> Gradle Project -> ...\
 Three hidden directories were created, but no folder structure for source and class files.\
-Also no `gradle.build` file.
+Also no `gradle.build` file.\
+I can see that `Gradle` is installed in Eclipse under `help -> Eclipse Marketplace -> installed`
 
 
 todo: follow tutorial after gradle installation
