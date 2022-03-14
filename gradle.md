@@ -79,3 +79,14 @@ https://riptutorial.com/gradle/example/17338/using-the-gradle-wrapper-behind-a-p
 
 No matter what you do, gradle does only work with an internet connection.
 
+It worked after setting the environment variable `JAVA_OPTS` for the proxy.
+
+To build java projects you need to add the `java plugin` to your `build.gradle` file.
+
+Put this in your `build.gradle`:
+```
+plugins {
+    id 'java'
+}
+```
+Then run `./gradlew tasks` again and there will be new tasks available.
