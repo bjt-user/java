@@ -54,6 +54,7 @@ Three hidden directories were created, but no folder structure for source and cl
 Also no `gradle.build` file.\
 I can see that `Gradle` is installed in Eclipse under `help -> Eclipse Marketplace -> installed`
 ***
+#### Tutorial
 
 todo: follow tutorial after gradle installation
 ```
