@@ -68,3 +68,7 @@ Downloading from https://services.gradle.org/distributions/gradle-7.4-rc-2-bin.z
 https://riptutorial.com/gradle/example/17338/using-the-gradle-wrapper-behind-a-proxy
 
 No matter what you do, gradle does only work with an internet connection.
+I put this in my `.bashprofile` and will see if it works:
+```
+export JAVA_OPTS=-Dhttps.proxyPort=1234 -Dhttps.proxyHost=my.company.com
+```
