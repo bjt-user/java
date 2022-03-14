@@ -103,6 +103,20 @@ But I cant seem to execute it:
 $ java -jar gradle-tutorial.jar
 no main manifest attribute, in gradle-tutorial.jar
 ```
+Java does not know which class to run.\
+We need to add the main class manifest attribute.\
+So I add a section to the `build.gradle` file:
+```
+plugins {
+    id 'java'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'HelloWorld'
+    }
+}
+```
 And besides that `.jar` file there are no `.class` files.
 
 The reason for this is probably because I didn't setup the folder structure that `gradle` expects.
