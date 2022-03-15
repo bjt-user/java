@@ -1,4 +1,4 @@
-TODO: how to use maven both on command line and in eclipse?
+#### What is Apache Maven?
 
 `Apache Maven` downloads libraries, so you don't have to download a java library with a web browser,\
 put it into some folder and set the `classpath` for compiling.\
@@ -52,3 +52,17 @@ mvn -version
 
 I did not find a way yet to create a pom.xml on the command line.\
 It looks like you have to write that file manually...
+
+#### Maven Project in Eclipse
+
+File -> New -> Project -> type `maven` into the search field\
+Select `Maven Project`. -> `Next`\
+Tick `create simple project (skip archetype selection)` -> `Next`\
+Now you have to enter a `group id` and `Artifact id`...\
+The `Artifact ID` seems to be something like a project name, so I just use the Project name.\
+`group id` I use the initials of my name or you could use your company name.\
+`Finish`
+
+And it created a skeleton for my project with a `src/main/java` directory structure.\
+Looked fine at first sight but on the right bottom side of Eclipse there is never ending progress bar at 0% that says `creating project ...`.\
+Maybe my Eclipse version is too new and not stable...
