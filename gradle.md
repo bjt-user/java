@@ -140,7 +140,10 @@ But besides that `.jar` file there are no `.class` files.
 The reason for this is probably because I didn't setup the folder structure that `gradle` expects.
 
 ```
-...java/gradle-tutorial $ mv HelloWorld.java src/main/java/.
+mkdir src
+mkdir src/main
+mkdir src/main/java
+mv HelloWorld.java src/main/java/.
 ```
 I ran `./gradlew build` again and now there are two more folders in the `build` directory.\
 The `build/generated` folder has only folders in it no files.\
