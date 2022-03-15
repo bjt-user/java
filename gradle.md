@@ -185,13 +185,13 @@ jar {
 }
 
 application {
-    mainClassName = 'HelloWorld'
+    mainClass = 'HelloWorld'
 }
 ```
 
 Then you can do `gradle -q run` (where `-q` stands for quiet and doesn't show log messages)
 
-There are warnings, so you need to change `mainClassName` to `mainClass` and this resolves the warnings.
+At first there were warnings, because I used `mainClassName` instead of `mainClass`, but that is deprecated.
 
 #### dependencies
 To implement a library it looks like you can do it the following way:\
