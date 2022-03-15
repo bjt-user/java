@@ -37,3 +37,9 @@ For example I set the `run` command to `<F5>`.\
 When there are conflicts you can select a row and hit `unbind` button.
 
 After your changes hit `Apply and close`.
+
+#### terminal
+to open a terminal:
+```
+ctrl + alt + t
+```
