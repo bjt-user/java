@@ -188,6 +188,8 @@ application {
 
 Then you can do `gradle -q run` (where `-q` stands for quiet and doesn't show log messages)
 
+There are warnings, so you need to change `mainClassName` to `mainClass` and this resolves the warnings.
+
 #### dependencies
 To implement a library it looks like you can do it the following way:\
 Go to https://mvnrepository.com and search for your lib.\
