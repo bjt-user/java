@@ -43,3 +43,8 @@ to open a Windows (cmd) terminal:
 ```
 ctrl + alt + t
 ```
+But that doesn't open in the directory of the current project...
+
+To get that you need to right-click on the project -> `show in local terminal -> terminal`
+or
+select the project by clicking it with the left mousebutton and then hit `ctrl + alt + t`
