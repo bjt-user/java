@@ -65,6 +65,14 @@ Setting the `gradle user home` in `window->preferences->gradle` didn't do anythi
 
 I tried it again but now Eclipse creates two Projects, one with a `-lib` ending...this is not what I want...
 
+Answer from stackoverflow.com:\
+It seems to be a problem with newer Gradle versions, as indicated here:
+
+https://stackoverflow.com/a/66857125
+
+-> you could try it with gradle version 6.6
+
+
 ***
 #### Tutorial
 
