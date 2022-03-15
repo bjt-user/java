@@ -39,7 +39,7 @@ When there are conflicts you can select a row and hit `unbind` button.
 After your changes hit `Apply and close`.
 
 #### terminal
-to open a terminal:
+to open a Windows (cmd) terminal:
 ```
 ctrl + alt + t
 ```
