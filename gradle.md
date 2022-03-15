@@ -61,7 +61,9 @@ Now it seems to work.
 But I don't have the folder structure that gradle wants and I can't create a new class by right-clicking the project\
 because it is `not a java project`.
 
-**TODO: Maybe I should have set the `java home` and `gradle user home` in `window->preferences->gradle`**
+Setting the `gradle user home` in `window->preferences->gradle` didn't do anything.
+
+I tried it again but now Eclipse creates two Projects, one with a `-lib` ending...this is not what I want...
 
 ***
 #### Tutorial
