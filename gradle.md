@@ -76,14 +76,9 @@ https://stackoverflow.com/a/66857125
 ***
 #### Tutorial
 
-todo: follow tutorial after gradle installation
-```
-https://www.youtube.com/watch?v=-dtcEMLNmn0&ab_channel=TomGregoryTech
-```
-at around 9:30
-
 It looks like with `gradle init` gradle asks you what kind of project you would like to set up.\
-Then it will set up the directory structure.
+Then it will set up some gradle files.\
+(but not the directory structure `src/main/java/main.java` that is needed)
 
 Choose `1` for `basic project`.
 Choose `1` for `Groovy`.
